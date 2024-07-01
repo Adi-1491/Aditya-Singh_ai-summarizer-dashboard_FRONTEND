@@ -1,72 +1,70 @@
-# Aditya-Singh_ai-summarizer-dashboard_FRONTEND
+# Getting Started with Create React App
 
-AI-Powered Content Summarizer Dashboard
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a React-based dashboard that allows users to input long-form text content or scrape content from web pages and receive AI-generated summaries.
+## Available Scripts
 
-Features
+In the project directory, you can run:
 
-Text Input: Users can manually input long-form text content for summarization.
-URL Input: Users can input a URL to scrape content from web pages.
-Summary Generation: AI-powered summarization based on selected length (short, medium, long).
-Export: Ability to export summaries as text or PDF.
-History: Keeps track of previous summarization requests.
-Error Handling: Basic error handling for API failures and invalid inputs.
-Installation
+### `npm start`
 
-To run the project locally, follow these steps:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Clone the repository:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-bash
-Copy code
-git clone https://github.com/Aditya-Singh_ai-summarizer-dashboard_FRONTEND.git
-Navigate into the project directory:
+### `npm test`
 
-bash
-Copy code
-cd ai-summarizer-dashboard
-Install dependencies:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-bash
-Copy code
-npm install
-Start the development server:
+### `npm run build`
 
-bash
-Copy code
-npm start
-Open your browser and visit http://localhost:3000 to view the application.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Usage
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Manual Input:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Paste or type long-form text into the input area.
-Select summary length (short, medium, long).
-Click "Summarize" to generate a summary.
-URL Input:
+### `npm run eject`
 
-Enter a URL to scrape content from a web page.
-Click "Scrape" to fetch and display the content.
-Select summary length and click "Summarize" to generate a summary.
-Export:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Use the "Export as Text" button to download the summary as a .txt file.
-Use the "Export as PDF" button to download the summary as a .pdf file.
-History:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Previous summarization requests are displayed in the history section with both original content and summaries.
-Contributing
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Contributions are welcome! Here's how you can contribute to this project:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/your-feature-name).
-Create a new Pull Request.
-Credits
+## Learn More
 
-Developed by Aditya Singh
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
